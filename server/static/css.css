@@ -1,0 +1,46 @@
+body {
+    background: #989898;
+}
+
+.form {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px;
+}
+
+.log {
+    min-height: 200px;
+    max-height: 300px;
+    border: solid 1px #c3c3c3;
+}
+
+.message {
+    box-sizing: border-box;
+    margin: 10px 0;
+    width: 100%;
+    height: 50px;
+}
+
+.send {
+    display: block;
+    border: solid 2px #49ff5a;
+    border-radius: 3px;
+    background: #8fff93;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.send:hover {
+    background: #1aff1a;
+    color: #000;
+}
+
+.send:active {
+    background: #fff;
+    color: #000;
+}
